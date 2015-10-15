@@ -1,3 +1,5 @@
+require 'prime'
+
 class SumGenerator
   def initialize(array)
     @array = array

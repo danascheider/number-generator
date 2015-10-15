@@ -1,4 +1,5 @@
 require_relative '../lib/sum_generator'
+require_relative '../lib/reducer'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
