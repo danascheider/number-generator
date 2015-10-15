@@ -6,7 +6,7 @@ describe SumGenerator do
 
   describe 'SumGenerator::generate_sums' do 
     it 'returns the sums of digits' do 
-      expect(SumGenerator.generate_sums(*original_array)).to eql output_array
+      expect(SumGenerator.generate_sums(original_array)).to eql output_array
     end
   end
 end
