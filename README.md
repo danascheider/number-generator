@@ -1,4 +1,4 @@
-# Number Generator
+# Number Generator [![Build Status](https://travis-ci.org/danascheider/number-generator.svg)](https://travis-ci.org/danascheider/number-generator) [![Code Climate](https://codeclimate.com/github/danascheider/number-generator/badges/gpa.svg)](https://codeclimate.com/github/danascheider/number-generator)
 This number generator generates all the numbers from 1 through 1000 and adds their digits together, displaying the sum if it is a prime number.
 
 To run:<pre><code>gem install number_generator-0.0.1.gem
