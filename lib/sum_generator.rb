@@ -4,10 +4,6 @@ class SumGenerator
   end
 
   def generate_sums
-    iterable = @array.map {|num| num.to_s.split('') }
-    iterable.map! do |array|
-      array.map!(&:to_i)
-      array.inject(&:+)
-    end
+    @array.map {|num| num.to_s.split('').map(&:to_i).inject(&:+) }
   end
 end
