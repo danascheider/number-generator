@@ -1,9 +1,7 @@
 class Reducer
-  def initialize(array)
-    @array = array
-  end
-
-  def reduce
-    @array.reject {|n| !Prime.prime?(n) }
+  class << self
+    def reduce(array)
+      array.reject {|n| !Prime.prime?(n) }
+    end
   end
 end
